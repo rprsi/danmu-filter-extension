@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "B站2023-12-14专栏版",
+	"description": "把core改成老版本",	 
+	"version": "1.0",
+	"icons": {"256": "256.png"},
+	"permissions": [		  
+		 "webRequest","webRequestBlocking"
+		,"https://s1.hdslb.com/*"
+		,"https://www.bilibili.com/video/*"
+		,"https://www.bilibili.com/medialist/play/*"	
+	],	 
+	"background":{"scripts":["background.js"],"persistent": true}
+}
